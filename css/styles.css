@@ -1,0 +1,237 @@
+body{
+    color: #40514E;  /*color of the fonts for all the body*/
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 40;
+
+}
+
+h1{
+    /*color: #66BFBF;*/
+    color: #00a8cc;
+    margin: 50px auto 0 auto ;
+    font-family: 'kalam';
+/*
+    font-family: 'Sacramento', cursive;
+*/
+    font-size: 5.62rem;
+
+}
+
+h2{
+ /*   color: #66BFBF;*/
+    color: #010a43;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3{
+    color: #11698e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+a{
+    color: #11698e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+hr{
+    border-style:none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 10px;
+    color: #EAF6F6;
+    height: 0px;
+    width: 5%;
+    margin: 100px auto 100px auto;
+
+}
+p{
+    line-height:2;
+    /*display: inline-block;*/
+}
+
+.top-menu{
+    text-align: right;
+    display; inline-block;
+    margin-right: 100px;
+
+
+}
+
+.top-txt{
+    /*Welcomo im osvaldo*/
+    color: #010a43;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.neteng-text{
+    /* a network engineer text*/
+    color: #010a43;
+
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding-left: 50px;
+
+}
+
+.intro-par{
+    /*Introduction  Text*/
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+
+.icon-ref {
+    text-align: right;
+    width: 30%;
+    font-size: .5rem;
+    position: absolute;
+    color: black;
+}
+
+
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+
+/*.pro{
+text-decoration: underline;
+}*/
+
+.top-container{
+   /* background-color: black;*/
+    background-color: #dbe3e5;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin 50px auto;
+
+
+}
+.middle-container{
+    margin: 50px 0;
+   /* background-color: #e0ece4;*/
+
+}
+
+.bottom-container{
+    background-color: #dbe3e5;
+    padding: 50px 0 20px;
+
+}
+
+.profile-img{
+    width: 8%;
+
+}
+
+.main-img{
+     width: 15%;
+     /*position: absolute;
+     float: right;
+     top: 100px;
+     right: 200px;*/
+
+}
+
+.top-net-icon{
+   /* position: absolute;
+    right: 400px;
+    top:50px*/
+    width: 5%;
+    position: relative;
+    top:90px;
+    left:400px;
+    margin: 20px 50px;
+
+}
+.bottom-cloud{
+    width: 5%;
+    position: absolute;
+    left: 22%;
+    top: 21%;
+}
+
+/* SKILLS */
+
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+.network-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.wifi-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.security-img{
+    width: 20%;
+    float: left;
+    margin-left: 30px;
+    }
+
+
+.BUTTON_RQD {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 50px;
+   line-height: 50px;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   width: 200px;
+   font-size: 30px;
+   font-weight: 100;
+   padding: 40px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_RQD:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
